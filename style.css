@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;500;800&display=swap');
+
+body{
+  background-color: #F7EBEC;
+  font-family: Mulish, sans-serif;
+}
+
+p{
+  color: #383F51;
+  margin: 40px;
+}
+
+h1 {
+color: #59656F;
+}
+
+.btn-blue{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  background-color: #778392;
+  padding: 12px 24px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.btn-blue:hover{
+  background-color: #79668F;
+}
+
+.avatar-round {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+h2{
+  color: #1D1E2C;
+}
+
+i{
+  color: #59656F;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+i:hover{
+  color: #AC9FBB;
+}
+
+ul > li > a {
+  font-size: 32px;
+  text-decoration: none;
+}
+
+ul > li{
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+}
+
+div .banner{
+  background: white;
+  padding: 30px;
+  padding-bottom: 40px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px;
+  text-align: center;
+}
+
+div .section{
+  background: white;
+  padding: 30px;
+  border-radius: 2px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px;
+
+}
+
+.container{
+  text-align: center;
+  width: 950px;
+  margin: 50px auto;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+  .avatar-round {
+    width: 100px;
+    height: 100px;
+  }
+  div{
+    margin: 0;
+  }
+}
